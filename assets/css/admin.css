@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{
+	position:relative;
+}
+/*body{
+	margin-top: 30px;
+	margin-bottom:120px;
+}*/
+
+.jumbotron {
+	background-image: url('../pictures/bg.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0 -150px;
+	color: #eaeaea;
+	overflow: hidden;
+}
+
+.jumbotron img{
+	/*width:200px;*/
+	border:5px solid #eaeaea;
+	text-shadow: 5px 4px 10px rgba(0,0,0,1);
+}
+
+.jumbotron h1 , .jumbotron p {
+	text-shadow: 5px 4px 10px rgba(0,0,0,1);
+
+}
+
+hr{
+	width:250px;
+	border-top:3px solid #999;
+}
+section{
+	min-height:600px;
+}
+
+.pKiri, .pKanan, .sesi{
+	opacity: 0;
+	transform: translate(-50px,0);
+	transition: 2s;
+}
+.sesi{
+	transform: translate(0,-50px);
+}
+.pKanan{
+	transform: translate(50px,0);
+}
+.pKanan.pMuncul, .pKiri.pMuncul, .sesi.pMuncul{
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+.portfolio{
+	background-color:#eee;
+}
+
+.portfolio .thumbnail {
+	opacity: 0;
+	transform: translate(0, -50px);
+	transition: 1s;
+}
+
+.portfolio .thumbnail.muncul{
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+.Contact{
+	min-height: 800px;
+}
+footer{
+	position: absolute;
+	bottom: 0;
+	height:120px;
+	width:100%;
+	background-color:#333;
+	padding-top: 30px;
+}
+footer p{
+	color:#aaa;
+	font-size:1em;
+}
+footer p i{
+	color: salmon;
+}

@@ -1,0 +1,86 @@
+p.lead{
+    opacity: 0;
+    transform: translate(-50px,0);
+    transition: 3s;
+}
+p.lead.muncul{
+    opacity: 1;
+    transform: translate(0,0);
+}
+.welcome .shop{
+    opacity: 0;
+    transform: translate(0, -60px);
+    transition: 4s;
+}
+.welcome .shop.aMuncul{
+    opacity: 1;
+    transform: translate(0,0);
+}
+#order .card{
+    opacity: 0;
+    transform: translate(0,-60px);
+    transition: ease-out 1s;
+}
+#order .card.cMuncul, #about .development.cMuncul, #about .website.cMuncul, #contact .social #menu li.cMuncul, #contact .personal #personal li.cMuncul, #contact .address #address li.cMuncul{
+    opacity: 1;
+    transform: translate(0,0);
+}
+#about .development{
+    opacity: 0;
+    transition: cubic-bezier(0.86, 0, 0.07, .346) 2s;
+}
+#about .website{
+    opacity: 0;
+    transition: cubic-bezier(0.86, 0, 0.07, .346) 4s;
+}
+#contact .social #menu li{
+    opacity: 0;
+    transition: cubic-bezier(0.55, 0.055, 0.675, 0.19) 3s;
+}
+#contact .personal #personal li{
+    opacity: 0;
+    transition: cubic-bezier(0.55, 0.055, 0.675, 0.19) 3s;
+}
+#contact .address #address li{
+    opacity: 0;
+    transition: cubic-bezier(0.55, 0.055, 0.675, 0.19) 3s;
+}
+#arrow{
+    position: fixed;
+    /* top: 20px; */
+    bottom: 40px;
+    right: 40px;
+    width: 50px;
+    height: 50px;
+    font-size: 1rem;
+    background-color: #c0392b;
+    border: 0;
+    border-radius: 20%;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

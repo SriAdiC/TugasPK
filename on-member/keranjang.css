@@ -1,0 +1,19 @@
+.jumbotron.welcome{
+   height: 150px;
+}
+.jumbotron .heading{
+    margin-top: 45px;
+}
+
+#contact .social #menu li{
+    opacity: 1;
+    transition: cubic-bezier(0.55, 0.055, 0.675, 0.19) 3s;
+}
+#contact .personal #personal li{
+    opacity: 1;
+    transition: cubic-bezier(0.55, 0.055, 0.675, 0.19) 3s;
+}
+#contact .address #address li{
+    opacity: 1;
+    transition: cubic-bezier(0.55, 0.055, 0.675, 0.19) 3s;
+}

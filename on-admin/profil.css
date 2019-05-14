@@ -1,0 +1,68 @@
+.container{
+    position: relative;
+    width: 100%;
+    /* background-color: crimson; */
+}
+/* ^-^ */
+.row{
+    margin-top : 50px;
+}
+.form-control{
+    width: 450px;
+    margin-left: 45px;
+}
+span{
+    font-size: 2rem;
+    padding-bottom: 20px;
+    /* margin-left : 50%; */
+}
+.sosmed ul li{
+    margin-top: 10px;
+    display: inline-block;
+}
+a.prof .fa-facebook-square,
+a.prof .fa-twitter-square,
+a.prof .fa-instagram{
+    margin-bottom: 7px;
+    color: lightslategray;
+    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) .5s;
+}
+
+
+a.prof .fa-facebook-square:hover{
+	color: #3B5998;
+}
+a.prof .fa-twitter-square:hover{
+	color: #00ACED;
+}
+a.prof .fa-instagram:hover{
+	color: #517FA4;
+}
+a.prof .fa-facebook-square::after{
+    content: " Facebook";
+    font-size: 18px;
+}
+a.prof .fa-twitter-square::after{
+	content: " Twitter";
+    font-size: 18px;
+}
+a.prof .fa-instagram::after{
+	content: " Instagram";
+    font-size: 18px;
+}
+.fa-facebook-square:hover,
+.fa-twitter-square:hover,.fa-instagram:hover{
+    margin-left: 5px;
+}
+.btn-success{
+    background: transparent;
+    color: lightslategray;
+    border: 1px solid lightslategray;
+    border-radius: 20px;
+    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) .5s;
+}
+.btn-success:hover{
+    background: #2f3640;
+    color: white;
+    border: 1px solid;
+}
